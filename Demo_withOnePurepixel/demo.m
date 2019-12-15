@@ -28,5 +28,5 @@ clear distmat;
 %% DivergentSubet
 y = DivergentSubet(dis_mix,count);
 [lab,lab_y] = num_end_de(y,new_abf);%Deleting repeated elements.
-% You can observe lab_x to determine the number of endmembers.
+% You can observe lab_y to determine the number of endmembers.
 toc;
